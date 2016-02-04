@@ -187,7 +187,7 @@ static void inbox_received_handler(DictionaryIterator* iter, void* context)
     {
         mIs24HourStyle = (twenty_four_t->value->int32 > 0);
         persist_write_bool(KEY_TWENTY_FOUR, mIs24HourStyle);
-        APP_LOG(APP_LOG_LEVEL_DEBUG, "inbox_received_handler: mIs24HourStyle: %d", mIs24HourStyle);
+        APP_LOG(APP_LOG_LEVEL_DEBUG, "inbox_received_handler: data: %ld, mIs24HourStyle: %d", twenty_four_t->value->int32, mIs24HourStyle);
 
         struct tm* t;
         time_t temp;
