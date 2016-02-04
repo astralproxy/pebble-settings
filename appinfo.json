@@ -1,0 +1,63 @@
+{
+    "appKeys": {
+        "KEY_COLOR_BLUE1": 2,
+        "KEY_COLOR_BLUE2": 5,
+        "KEY_COLOR_GREEN1": 1,
+        "KEY_COLOR_GREEN2": 4,
+        "KEY_COLOR_RED1": 0,
+        "KEY_COLOR_RED2": 3,
+        "KEY_TWENTY_FOUR": 6
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "FNA",
+    "enableMultiJS": false,
+    "longName": "SETTINGSTEST",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9a-zA-Z.: ]",
+                "file": "fonts/consolab.ttf",
+                "name": "FONT_CONSOLAB_14",
+                "type": "font"
+            },
+            {
+                "file": "fonts/DSEG7Classic-Regular.ttf",
+                "name": "FONT_DSEG_NORMAL_18",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/DSEG7Classic-Regular.ttf",
+                "name": "FONT_DSEG_NORMAL_10",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/DSEG7Classic-Bold.ttf",
+                "name": "FONT_DSEG_BOLD_30",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/DSEG7Classic-Bold.ttf",
+                "name": "FONT_DSEG_BOLD_16",
+                "targetPlatforms": null,
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "SETTINGSTEST",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "4591d84b-e6a2-4db8-a058-3bb0d4bdf849",
+    "versionLabel": "1",
+    "watchapp": {
+        "watchface": true
+    }
+}
